@@ -1,0 +1,144 @@
+/* NAVBAR */
+
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul , #navbar ul li {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul li {
+    border-bottom: 1px solid #444;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 8px 5px;
+}
+
+
+/* SHOWCASE */
+
+#showcase {
+    height: 100%;
+}
+
+#showcase .content {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+
+/* HOME-INFO */
+
+#home-info {
+    height: 100%;
+}
+
+#home-info .info-image {
+    display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+    padding: 30px 90px;
+}
+
+/* FEATURES */
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* ABOUT */
+
+#about-info .info-left, #about-info .info-right {
+    float: none;
+    width: 100%;
+    /* padding: 15px 20px; */
+}
+
+#about-info .info-left {
+    padding: 5px 20px;
+}
+
+#about-info .info-right {
+    padding-top: 1px;
+}
+
+#about-info .info-left h1 {
+    text-align: center;
+}
+
+#about-info .info-right img {
+    float: none;
+    margin: 30px auto;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+    height: 100%;
+}
+
+#testimonials h2 {
+    line-height: 1.2em;
+    font-size: 35px;
+}
+
+/* CONTACT */
+
+#contact-form .container h1, #contact-form .container p {
+    text-align: center;
+}
+
+#contact-form .container p {
+    margin-bottom: 40px;
+}
+
+#contact-form .container {
+    padding: 10px 20px;
+}
+
+#contact-info .box {
+    border-bottom: 1px dotted #444;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+}
+
+
+/* HAMBURGER MENU */
+
+
+.icon {
+    display: none;
+}
+
+@media (max-width: 724px) {
+    #menu {
+        display: none;
+    }
+    .icon {
+        display: block;
+        text-align: center;
+        border: 1px solid #fff;
+        width: 20px;
+        margin: 25px auto;
+        border-radius: 5px;
+        height: 34px;
+        width: 36px;
+        padding-top: 3px;
+    }
+
+
+}
+
+
+
